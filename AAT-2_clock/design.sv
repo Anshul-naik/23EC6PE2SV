@@ -27,9 +27,7 @@ module digital_clock (
         end
     end
 
-    // =============================
     // Assertions
-    // =============================
 
     property sec_limit;
         @(posedge clk) disable iff (reset)
